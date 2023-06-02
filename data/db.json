@@ -1,0 +1,128 @@
+{
+  "produtos": [
+    {
+      "name": "fgf",
+      "descricao": "sdsds",
+      "value": 676,
+      "qntd": "57576",
+      "id": 14
+    },
+    {
+      "name": "jjjj",
+      "descricao": "jjjjj",
+      "value": 777,
+      "qntd": "777",
+      "id": 15
+    },
+    {
+      "name": "testetes",
+      "descricao": "teste",
+      "value": 10,
+      "qntd": "10",
+      "id": 16
+    },
+    {
+      "name": "pod da heineken",
+      "descricao": "pod da heineken",
+      "value": 100,
+      "qntd": "1",
+      "fornecedor": "3",
+      "id": 17
+    },
+    {
+      "name": "test55",
+      "descricao": "test55",
+      "value": 10,
+      "qntd": "5",
+      "fornecedor": "Ambev",
+      "id": 18
+    },
+    {
+      "name": "coca",
+      "descricao": "cocacola",
+      "value": 100,
+      "qntd": "10",
+      "fornecedor": "Ambev",
+      "id": 19
+    }
+  ],
+  "fornecedores": [
+    {
+      "nome_fornecedor": "Ambed",
+      "endereco": "teste",
+      "numero": "123",
+      "id": 1
+    }
+  ],
+  "pedidos": [
+    {
+      "14": "6",
+      "15": "7",
+      "id": 1
+    },
+    {
+      "14": "10",
+      "15": "10",
+      "16": "10",
+      "id": 2
+    },
+    {
+      "18": "5",
+      "19": "5",
+      "id": 3
+    },
+    {
+      "14": "88",
+      "15": "10",
+      "16": "22",
+      "id": 4
+    },
+    {
+      "14": "4",
+      "15": "5",
+      "16": "6",
+      "17": "7",
+      "18": "8",
+      "19": "9",
+      "20": "10",
+      "id": 5
+    },
+    {
+      "14": "66",
+      "15": "66",
+      "id": 6
+    },
+    {
+      "14": "10",
+      "15": "1",
+      "17": "9",
+      "id": 7
+    },
+    {
+      "produtos": [
+        {
+          "id": 14,
+          "quantidade": "4"
+        },
+        {
+          "id": 15,
+          "quantidade": "5"
+        }
+      ],
+      "id": 8
+    },
+    {
+      "produtos": [
+        {
+          "id": 14,
+          "quantidade": "5"
+        },
+        {
+          "id": 15,
+          "quantidade": "3"
+        }
+      ],
+      "id": 9
+    }
+  ]
+}
