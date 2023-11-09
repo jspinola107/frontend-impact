@@ -1,0 +1,108 @@
+{
+  "produtos": [
+    {
+      "name": "fgfddd",
+      "descricao": "sdsds",
+      "value": 676,
+      "qntd": "57576",
+      "id": 14
+    },
+    {
+      "name": "jjjj",
+      "descricao": "jjjjj",
+      "value": 777,
+      "qntd": "777",
+      "id": 15
+    },
+    {
+      "name": "testetes",
+      "descricao": "teste",
+      "value": 10,
+      "qntd": "10",
+      "id": 16
+    },
+    {
+      "name": "pod da heineken",
+      "descricao": "pod da heineken",
+      "value": 100,
+      "qntd": "1",
+      "fornecedor": "3",
+      "id": 17
+    },
+    {
+      "name": "test55",
+      "descricao": "test55",
+      "value": 10,
+      "qntd": "5",
+      "fornecedor": "Ambev",
+      "id": 18
+    },
+    {
+      "name": "coca",
+      "descricao": "cocacola",
+      "value": 100,
+      "qntd": "10",
+      "fornecedor": "Ambev",
+      "id": 19
+    }
+  ],
+  "fornecedores": [
+    {
+      "nome_fornecedor": "Agega gg",
+      "endereco": "rua sdfjdhff",
+      "numero": "4653456",
+      "id": 1
+    }
+  ],
+  "pedidos": [
+    {
+      "produtos": [
+        {
+          "id": 14,
+          "quantidade": 3
+        }
+      ],
+      "valorTotal": 2028,
+      "createdAt": "2023-11-05T23:11:23.051Z",
+      "id": 25
+    },
+    {
+      "produtos": [
+        {
+          "id": 14,
+          "quantidade": 3
+        },
+        {
+          "id": 15,
+          "quantidade": 4
+        }
+      ],
+      "valorTotal": 5136,
+      "createdAt": "2023-11-05T23:28:54.845Z",
+      "id": 26
+    },
+    {
+      "produtos": [
+        {
+          "id": 14,
+          "quantidade": 10
+        },
+        {
+          "id": 15,
+          "quantidade": 10
+        },
+        {
+          "id": 16,
+          "quantidade": 10
+        },
+        {
+          "id": 17,
+          "quantidade": 10
+        }
+      ],
+      "valorTotal": 15630,
+      "createdAt": "2023-11-05T23:32:36.622Z",
+      "id": 27
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* Base styles */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400; /* Use um peso de fonte mais padrão */
+  color: #333;
+}
+
+body {
+  background-color: #f5f5f5; /* Fundo mais claro para tornar a página mais amigável */
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #fff; /* Fundo branco para destacar a barra de navegação */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adicione uma sombra suave */
+}
+
+.navbar h1 {
+  color: #0509eb;
+  font-size: 24px; /* Tamanho da fonte aumentado para destaque */
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  color: #444; /* Cor de texto mais escura */
+  font-weight: 500; /* Use um peso de fonte mais ousado */
+}
+
+.navbar a:hover {
+  color: #0509eb;
+}
+
+.content {
+  max-width: 800px; /* Largura aumentada para melhor legibilidade */
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff; /* Fundo branco para destacar o conteúdo */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adicione uma sombra suave */
+}
+
+/* Produtos e fornecedores previews / list */
+.product-preview, .fornecedor-preview, .fornecedor-list {
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s; /* Adicione uma transição suave */
+}
+
+.product-preview:hover, .fornecedor-preview:hover, .fornecedor-list:hover {
+  transform: scale(1.05); /* Efeito de escala ao passar o mouse */
+}
+
+.product-preview h2, .fornecedor-preview h2, .fornecedor-list h2 {
+  font-size: 22px;
+  color: #0509eb;
+  margin-bottom: 10px;
+}
+
+.product-preview a, .fornecedor-preview a, .fornecedor-list a {
+  text-decoration: none;
+  color: #0509eb;
+  font-weight: 500;
+}
+
+/* Botões */
+button {
+  background: #0509eb;
+  color: #fff;
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #0424d9;
+}
+/* Estilos para elementos de formulário */
+form {
+  background-color: #fff; /* Fundo branco para formulários */
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  color: #0509eb; /* Cor de texto destacada para rótulos */
+  font-weight: 500;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="float"],
+form input[type="number"],
+form textarea,
+form select {
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+form button {
+  background: #0509eb;
+  color: #fff;
+  margin-top: 8px;
+  border: 15px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+form button:hover {
+  background: #0424d9;
+}
+
+
+
+.create {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+input[type="checkbox"] {
+  margin-left: 5px;
+  height: 24px; /* Adjust the height to match the number input */
+  width: 24px; /* Adjust the width to make it square */
+  appearance: none; /* Remove the default checkbox appearance */
+  background-color: #fff; /* Background color */
+  border: 1px solid #ccc; /* Border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Cursor on hover */
+}
+
+input[type="checkbox"]:checked {
+  background-color: #007bff; /* Background color when checked */
+  border: 2px solid #000000; /* Border when checked */
+}
+
+input[type="number"] {
+  width: 50px;
+}
